@@ -31,6 +31,7 @@ header nav {
 .dropdown button {
   background-color: #2e8bc0;
   border: none;
+  margin: 0.5rem;
 }
 
 .dropdown-menu ul {

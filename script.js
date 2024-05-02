@@ -10,3 +10,10 @@ document.addEventListener("click", (e) => {
     dropDown.classList.remove("active");
   }
 });
+
+window.addEventListener("resize", (e) => {
+  if (window.innerWidth > 500) {
+    const dropDown = document.querySelector(".dropdown-menu");
+    dropDown.classList.remove("active");
+  }
+});
