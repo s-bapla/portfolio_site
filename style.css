@@ -6,8 +6,11 @@
 }
 
 /* css */
+body {
+  background-color: black;
+}
 header nav {
-  background-color: #2e8bc0;
+  background-color: #333;
 }
 
 .dropdown {
@@ -19,7 +22,7 @@ header nav {
   left: 0;
   top: calc(100% + 0.5rem);
   border-radius: 0.25rem;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.2);
   padding: 0.75rem;
   margin: 0;
   transform: translateY(-10px);
@@ -29,7 +32,7 @@ header nav {
 }
 
 .dropdown button {
-  background-color: #2e8bc0;
+  background-color: #333;
   border: none;
   margin: 0.5rem;
 }
@@ -40,7 +43,7 @@ header nav {
 
 .dropdown-menu a {
   text-decoration: none;
-  color: #333;
+  color: #ffffff;
   padding: 0.25rem;
 }
 
@@ -48,6 +51,64 @@ header nav {
   opacity: 1;
   pointer-events: auto;
   transform: translateY(0);
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+}
+.header-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 40vh;
+}
+.header-intro h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 48px;
+}
+.header-intro p {
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+.projects-grid {
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.project1,
+.project2 {
+  color: #ffffff;
+  width: 50%;
+}
+.projects-grid img {
+  border: 1px solid #ddd;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.bottom-of-card {
+  border-radius: 0 0 10px 10px;
+  border: #ddd solid 1px;
+  padding: 4px;
+}
+
+.projects-grid .click-here p {
+    font-size: 12px;
+}
+
+.projects-grid .description p {
+    font-size: 20px
 }
 
 @media (min-width: 500px) {
@@ -66,8 +127,9 @@ header nav {
     padding: 0;
     margin: 0;
     transform: translateY(0);
-    padding: 1rem;
+    padding: 0.75rem;
     width: 50%;
+    pointer-events: auto;
   }
 
   .dropdown {
