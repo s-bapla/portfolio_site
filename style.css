@@ -47,32 +47,79 @@ header nav {
   padding: 0.25rem;
 }
 
+.dropdown i {
+  color: black;
+}
+
 .dropdown-menu.active {
   opacity: 1;
   pointer-events: auto;
   transform: translateY(0);
 }
+
 .avatar {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 40vh;
+  margin-top: 2rem;
 }
+
 .header-intro {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-height: 40vh;
+  margin-top: 2rem;
 }
+
 .header-intro h1 {
   color: white;
   font-weight: 900;
   font-size: 48px;
 }
+
+#name-grad {
+  background-image: linear-gradient(to right, orange, purple);
+  background-clip: text;
+  color: transparent;
+}
+
 .header-intro p {
   color: white;
   padding: 5px;
+  text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 10px;
+}
+
+.get-in-touch {
+    background-color: #fff;
+    padding: 0.5rem;
+    border-radius: 16px;
+    font-weight: 700;
+    border: 2px white solid;
+}
+
+.get-CV {
+    background-color: black;
+    padding: 0.5rem;
+    border: 2px white solid;
+    border-radius: 16px;
+    color: #fff;
+    font-weight: 700;
+}
+
+h2.projects-heading {
+    margin-top: 2rem;
+  background-image: linear-gradient(to bottom, #FF8660, #D5491D);
+  background-clip: text;
+  color: transparent;
+  font-weight: 900;
+  font-size: 36px;
   text-align: center;
 }
 .projects-grid {
@@ -81,14 +128,16 @@ header nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   gap: 10px;
+  margin-top: 2rem;
 }
+
 .project1,
 .project2 {
   color: #ffffff;
   width: 50%;
 }
+
 .projects-grid img {
   border: 1px solid #ddd;
   border-radius: 10px 10px 0 0;
@@ -104,11 +153,11 @@ header nav {
 }
 
 .projects-grid .click-here p {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .projects-grid .description p {
-    font-size: 20px
+  font-size: 20px;
 }
 
 @media (min-width: 500px) {
