@@ -90,32 +90,33 @@ header nav {
 }
 
 .button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    gap: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 10px;
 }
 
 .get-in-touch {
-    background-color: #fff;
-    padding: 0.5rem;
-    border-radius: 16px;
-    font-weight: 700;
-    border: 2px white solid;
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 16px;
+  font-weight: 700;
+  border: 2px white solid;
+  color: white;
 }
 
 .get-CV {
-    background-color: black;
-    padding: 0.5rem;
-    border: 2px white solid;
-    border-radius: 16px;
-    color: #fff;
-    font-weight: 700;
+  background-color: black;
+  padding: 0.5rem;
+  border: 2px white solid;
+  border-radius: 16px;
+  color: #fff;
+  font-weight: 700;
 }
 
 h2.projects-heading {
-    margin-top: 2rem;
-  background-image: linear-gradient(to bottom, #FF8660, #D5491D);
+  margin-top: 2rem;
+  background-image: linear-gradient(to bottom, #ff8660, #d5491d);
   background-clip: text;
   color: transparent;
   font-weight: 900;
